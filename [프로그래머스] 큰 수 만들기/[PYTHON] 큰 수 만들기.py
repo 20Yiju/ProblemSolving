@@ -1,6 +1,6 @@
 def solution(number, k):
     answer = []
-        
+    # number = list(map(int,answer)) 이 과정은 굳이 없어도 문자 형식으로도 대소 비교 가능
     for num in number:
         
         if len(answer) == 0:
@@ -24,7 +24,7 @@ def solution(number, k):
     else:
         answer
         
-    number = list(map(str,answer))
+    #number = list(map(str,answer))
     answer = ''.join(number)
     
     return answer
