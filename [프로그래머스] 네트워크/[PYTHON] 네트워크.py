@@ -19,3 +19,20 @@ def solution(n, computers):
             answer += 1
                
     return answer
+
+
+# BFS 풀이
+#def BFS(n, computers, visited, node):
+#    visited[node] = True
+#    queue = [] #방문한 노드들을 큐에 저장
+#    queue.append(node)
+    
+#    while len(queue) != 0:
+#        node = queue.pop(0) # 노드 하나 꺼냄
+#        visited[node] = True
+
+#        for i in range(n): # 인접 노드 탐색
+#            if connect != node and computers[node][i] == 1:
+#                if visited[i] == False:
+#                    queue.append(i)
+
